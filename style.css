@@ -44,17 +44,17 @@ a:hover{
     border-radius: 10px;
     color: #ecf0f3;
 }
-.index{
+.home{
     position: relative;
 }
-.index h1{
+.home h1{
    position: absolute;
    top:100px;
    left: 500px;
    font-weight: 800;
     color: #033b4a;
 }
-.index hr{
+.home hr{
     position: absolute;
     top: 150px;
     left:600px;
