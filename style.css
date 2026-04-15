@@ -100,7 +100,7 @@ a:hover{
 
 /*---mycourses start---*/
 main #mycourses{ 
-    height: 100vh;
+   /* height: 100vh;*/
     width: 100%;
     padding: 6rem 0;
 }
@@ -163,7 +163,7 @@ td{
 
 /*--addcourses start--*/
 main #addcourses{
-    height: 100vh;
+   /* height: 100vh;*/
     width: 100%;
     padding: 6rem 0;
 }
@@ -226,7 +226,7 @@ main #addcourses{
 
 /*--contant us start*/
 main #contantus{
-    height: 100vh;
+    /*height: 100vh;*/
     width: 100%;
     padding: 6rem 0;
 }
