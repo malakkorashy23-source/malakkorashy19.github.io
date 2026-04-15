@@ -294,7 +294,7 @@ footer{
 
 /*responsive start*/
 @media screen and (max-width:768px) {
-   nav ul{
+    nav ul{
          flex-direction: column;
          align-items: center;
     }
@@ -309,7 +309,7 @@ footer{
     .home hr{
         
         top:180px;
-       left:210px;
+       left:200px;
        
     }
     .img img{
@@ -321,10 +321,25 @@ footer{
         top:900px;
         left:60px;
     }
+    #mycourses .word h1{
+        width:600px;
+    }
+    #mycourses .word hr{
+        margin-left: 250px;
+    }
+    table{
+        width: 600px;
+    }
+    #addcourses .words h1{
+        width:600px;
+    }
+    #addcourses .words hr{
+        margin-left: 250px;
+    }
     #addcourses form{
         width: 600px;
         height: 500px;
-        margin: 2rem 6rem;
+        margin:2rem auto;
     }
     #addcourses form input,#addcourses form textarea{
         width: 550px;
@@ -333,14 +348,23 @@ footer{
     #contantus form{
         width: 600px;
         height:300px;
-        margin: 2rem 6rem;
+        margin: 2rem auto;
     }
     #contantus form input,textarea{
         width: 550px;
+    }
+    #contantus .wordss h1{
+        width: 600px;
+    }
+    #contantus .wordss hr{
+        margin-left:250px;
+    }
+    footer{
+       min-width:605px;
     }
 
 }
 /*responsive end*/
 
 
-
+   c
