@@ -12,12 +12,12 @@ html{
 }
 /*---header start---*/
 #index{
-    width: 100%;
+    max-width: 100%;
     height: 100vh;
 }
 .navbar {
     background-color: white;
-    height: 70px;
+    height: 7vh;
     position: fixed;
     width:100% ;
 }
@@ -52,7 +52,7 @@ a:hover{
    top:100px;
    left: 500px;
    font-weight: 800;
-    color: #033b4a;
+   color: #033b4a;
 }
 .home hr{
     position: absolute;
@@ -67,8 +67,8 @@ a:hover{
     position: absolute;
     top: 200px;
     left: 20px;
-    width: 700px;
-    height: 500px;
+    width: 40%;
+    height: 50vh;
     box-shadow: 2px 2px 2px rgb(0, 0,0.2);
     transition: all 0.3s ease;
 }
@@ -78,10 +78,10 @@ a:hover{
 .img .content{
     position: absolute;
     top: 300px;
-    right: 50px;
+    right: 15px;
 }
 .img .content h2{
-    width: 500px;
+    width: 60%;
     color: #033b4a;
     font-size: 30px;
     font-weight: 500;
@@ -121,8 +121,8 @@ table{
 
     margin: 100px auto;
     text-align: center;
-    width: 700px;
-    height:400px;
+    width: 80%;
+    height:60vh;
     width: 80%;
     border: 1.5px solid transparent;
     border-radius: 15px;
@@ -181,8 +181,8 @@ main #addcourses{
     margin:2px auto 0;
 }
 #addcourses form{
-    width: 900px;
-    height: 400px;
+    width: 80%;
+    height: 55vh;
     margin: 6rem auto;
     border: 1px solid;
     border-radius: 10px;
@@ -201,7 +201,7 @@ main #addcourses{
     color: #033b4a;
 } 
 #addcourses form input,#addcourses textarea{
-    width: 800px;
+    width: 90%;
     padding:5px;
     text-align: center;
     margin: 10px 30px;
@@ -209,11 +209,11 @@ main #addcourses{
     
 }
 #addcourses form button{
-    width: 300px;
+    width: 30%;
     text-align: center;
     background-color:aliceblue;
     color: #033b4a;
-    margin:19px auto ;
+    margin:25px auto ;
     padding: 5px;
     border-radius: 10px;
     font-size: 17px;
@@ -244,7 +244,7 @@ main #contantus{
     margin:2px auto 0;
 }
 #contantus form{
-    width: 900px;
+    width: 90%;
     
     margin: 6rem auto;
     border: 1px solid;
@@ -257,8 +257,8 @@ main #contantus{
 }  
 #contantus form input,textarea{
 
-    width: 800px;
-    height: 50px;
+    width: 80%;
+    height:7vh;
     border: 1px solid;
     border-radius: 10px;
     padding: 5px;
@@ -266,7 +266,7 @@ main #contantus{
     margin: 10px auto;
 }
 #contantus form button{
-    width: 300px;
+    width: 30%;
     text-align: center;
     background-color:aliceblue;
     color: #033b4a;
@@ -294,77 +294,40 @@ footer{
 
 /*responsive start*/
 @media screen and (max-width:768px) {
-    nav ul{
-         flex-direction: column;
-         align-items: center;
-    }
+
     .navbar ul{
         text-align: center;
+        padding: 7px;
     }
+    a{
+        font-weight: 400;
+    }
+    ul li{
+        padding: 2px;
+    }
+    
     .home h1{
-
-       left:140px;
-       width: 550px;
+       font-weight: 900;
+       left:60px;
+       font-size: 20px;
     }
     .home hr{
         
-        top:180px;
-       left:200px;
+       top:140px;
+       left:100px;
+       width:200px;
        
     }
     .img img{
-       width:600px; 
-        top:300px;
+       width:80%; 
+        top:200px;
         left:60px;
     }
     .img .content{
-        top:900px;
+        top:700px;
         left:60px;
     }
-    #mycourses .word h1{
-        width:600px;
-    }
-    #mycourses .word hr{
-        margin-left: 250px;
-    }
-    table{
-        width: 600px;
-    }
-    #addcourses .words h1{
-        width:600px;
-    }
-    #addcourses .words hr{
-        margin-left: 250px;
-    }
-    #addcourses form{
-        width: 600px;
-        height: 500px;
-        margin:2rem auto;
-    }
-    #addcourses form input,#addcourses form textarea{
-        width: 550px;
-        
-    }
-    #contantus form{
-        width: 600px;
-        height:300px;
-        margin: 2rem auto;
-    }
-    #contantus form input,textarea{
-        width: 550px;
-    }
-    #contantus .wordss h1{
-        width: 600px;
-    }
-    #contantus .wordss hr{
-        margin-left:250px;
-    }
-    footer{
-       min-width:605px;
-    }
+
 
 }
 /*responsive end*/
-
-
-   c
