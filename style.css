@@ -300,7 +300,8 @@ footer{
         padding: 7px;
     }
     a{
-        font-weight: 400;
+        font-weight: 600;
+        padding:3px;
     }
     ul li{
         padding: 2px;
@@ -326,6 +327,10 @@ footer{
     .img .content{
         top:700px;
         left:60px;
+    }
+    table{
+        weight:70%; 
+        margin:auto;
     }
 
 
